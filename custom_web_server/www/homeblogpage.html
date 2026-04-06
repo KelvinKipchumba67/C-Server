@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin's Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body style="background: var(--section-bg); color: var(--text-primary); font-family: var(--font-body);">
+<nav class="navbar">
+    <div class="logo">Kelvin Kipchumba</div>
+    <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+    <ul class="nav-links">
+      <li><a href="/index.html#about">About</a></li>
+      <li><a href="/index.html">Skills</a></li>
+      <li><a href="/index.html">Projects</a></li>
+      <li><a href="/index.html">Education</a></li>
+      <li><a href="/homeblogpage.html">Blog</a></li>
+      <li><a href="/index.html#contact">Contact</a></li>
+      <li><a href="../index.html" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">Home</a></li>
+    </ul>
+</nav>
+<!--Slider blog content-->
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <a href="/blogs/ContextSwitching.html">
+    <div class="swiper-slide">
+      <div class="slide-inner">
+        <div class="content-box">
+          <span class="meta">FEBRUARY 18, 2026 • FEATURED, DISCUSSION</span>
+          <h2 class="title">Context Switching</h2>
+          <p class="excerpt">In the modern professional landscape, we are rarely single-threaded. We are founders who also code, managers who also design, or freelancers juggling four different client ecosystems...</p>
+        </div>
+        <div class="image-box">
+          <img src="img/context.jpg" alt="Espresso Machine" loading="lazy">
+        </div>
+      </div>
+      </a>
+    </div>
+
+   
+    <div class="swiper-slide">
+       <a href="/blogs/APIs.html">
+      <div class="slide-inner">
+        <div class="content-box">
+          <span class="meta">FEBRUARY 16, 2026 • FEATURED, DEVELOPMENT</span>
+          <h2 class="title">The Definitive Guide to APIs</h2>
+          <p class="excerpt">In the modern digital ecosystem, no application is an island. A mobile weather app doesn't measure atmospheric pressure itself; it asks a specialized service.</p>
+        </div>
+        <div class="image-box">
+          <img src="img/APIS.png" alt="API Architecture" loading="lazy">
+        </div>
+      </div>
+      </a>
+    </div>
+    
+    
+
+   
+    <div class="swiper-slide">
+       <a href="/blogs/design1.html">
+      <div class="slide-inner">
+        <div class="content-box">
+          <span class="meta">FEBRUARY 16, 2026 • FEATURED, DESIGN</span>
+          <h2 class="title">Beyond the Logo, The Psychology of a Lasting Brand Identity</h2>
+          <p class="excerpt">Brand identity is more than a logo—learn how typography, color, and consistency build trust.</p>
+        </div>
+        <div class="image-box">
+          <img src="img/branding.jpg" alt="Branding" loading="lazy" >
+        </div>
+      </div>
+      </a>
+    </div>
+    
+
+  </div>
+
+  <div class="nav-wrapper">
+    <div class="swiper-button-prev" aria-label="Previous slide">←</div>
+    <div class="swiper-button-next" aria-label="Next slide">→</div>
+  </div>
+
+  <div class="swiper-pagination" aria-label="Slider pagination"></div>
+</div>
+
+
+
+<!-- Blog cards (styled like screenshot) -->
+<section id="list-blogs" aria-label="Blog posts">
+  <div class="blog-cards-grid">
+
+    <article class="blog-card">
+      <a class="blog-card__media" href="#" aria-label="Read article: Why 'Dune' is Better in a Group">
+        <img src="img/pic.jpg" alt="" loading="lazy">
+        <span class="blog-card__tag">Discussion</span>
+      </a>
+      <div class="blog-card__body">
+        <div class="blog-card__meta">
+          <span>February 20, 2026</span>
+          <span class="blog-card__author">By Kelvin</span>
+        </div>
+        <h2 class="blog-card__title">Context Switching</h2>
+        <p class="blog-card__excerpt">In the modern professional landscape, we are rarely single-threaded. We are founders who also code, managers who also design, or freelancers juggling four different client ecosystems.</p>
+        <a class="blog-card__link" href="/blogs/ContextSwitching.html">Read More</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <a class="blog-card__media" href="#" aria-label="Read article: Interview with Andy Weir">
+        <img src="img/APIS.png" alt="" loading="lazy">
+        <span class="blog-card__tag">APIs</span>
+      </a>
+      <div class="blog-card__body">
+        <div class="blog-card__meta">
+          <span>February 21, 2026</span>
+          <span class="blog-card__author">By Kelvin</span>
+        </div>
+        <h2 class="blog-card__title">The Definitive Guide to APIs</h2>
+        <p class="blog-card__excerpt">At its core, an API is a contract between two pieces of software. Just as a legal contract defines the obligations and expectations between two parties, an API defines exactly...</p>
+        <a class="blog-card__link" href="/blogs/APIs.html">Read More</a>
+      </div>
+    </article>
+
+    <article class="blog-card">
+      <a class="blog-card__media" href="#" aria-label="Read article: Top 5 Cozy Reading Spots">
+        <img src="img/branding.jpg" alt="" loading="lazy">
+        <span class="blog-card__tag">Brand Identity</span>
+      </a>
+      <div class="blog-card__body">
+        <div class="blog-card__meta">
+          <span>February 20, 2026</span>
+          <span class="blog-card__author">By Kelvin</span>
+        </div>
+        <h2 class="blog-card__title">Beyond the Logo, The Psychology of a Lasting Brand Identity</h2>
+        <p class="blog-card__excerpt">In today's hyper-competitive marketplace, a memorable logo is no longer enough to carve out a lasting presence.</p>
+        <a class="blog-card__link" href="/blogs/design1.html">Read More</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+<footer class="site-footer">
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/kelvin-kipchumba-a03980332/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <img src="img/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/KelvinKipchumba67" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      </a>
+    </div>
+    <p>&copy; 2025 Kelvin Kipchumba. Blog. All rights reserved.</p>
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

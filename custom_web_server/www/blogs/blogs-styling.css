@@ -1,0 +1,123 @@
+:root {
+  --primary-red: #e74c3c;
+  --text-dark: #333;
+}
+*{
+  margin: 0 auto;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* 1. The Background Image Section */
+.hero-section {
+  height: 450px;
+  background:url('/img/brand2.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-section-design{
+  height: 450px;
+  background:url('/img/branding2.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.hero-section-context{
+  height: 450px;
+  background:url('/img/pic.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.hero-section-apis{
+  height: 450px;
+  background:url('/img/apis2.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.meta{
+  color: #00d4ff;
+}
+.badge {
+  background-color: var(--primary-red);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin: 15px 0 5px;
+  color: white;
+}
+.h1-blogdesign{
+  color: white;
+}
+.contexth1{
+  color: white;
+}
+.APIs{
+  color: white;
+}
+
+/* 2. The Overlapping Card */
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.article-card {
+  background: white;
+  padding: 50px;
+  margin-top: -80px; /* This creates the overlap */
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  color: var(--text-dark);
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 30px 0;
+  border-left: 4px solid #eee;
+  padding-left: 20px;
+}
+
+/*Back button */
+.back-btn {
+  text-align: center;
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.back-btn:hover {
+  background-color: #00d4ff;
+  color: white;
+}
